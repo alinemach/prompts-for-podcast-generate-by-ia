@@ -23,46 +23,46 @@
 </p>
 
 <div align="center">
-    <audio src="output/podcast_editado.MP3" controls title="Podcast editado"></audio>
+    <audio src="output/podcast.mp3" controls title="Podcast"></audio>
 </div>
 
 # Projeto Podcast Gerado por I.A.s
 
 
- > ℹ️ **NOTE:** Este é o repositório desenvolvido durante uma live no Youtube em parceria com a [DIO](https://dio.me)
-
 Projeto com o objetivo de gerar um podcast utilizando ferramentas de IA através de prompts mais trabalhado.
 
-Utilizer uma esteira de prompts para gerar cada etapa do processo criativo.
+Utilizei uma esteira de prompts para gerar cada etapa do processo criativo.
 
 ## 💻 Tecnologias utilizadas no projeto
 
 - [ChatGPT](https://chat.openai.com/) 
-- [MidJourney](https://www.midjourney.com/app/)
+- [DALL·E 3](https://www.bing.com/images/create/?ref=hn)
 - [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
-
+- [Kdenlive](https://kdenlive.org/en/)
+- [Free Music Archive](https://freemusicarchive.org/home)
+  
 ## ✨ Como foi feito ?
 
 - Roteiro gerado via chatgpt
-- Audio gerado pela elevenLabs
-- Midjourney Para gerar capas
-- Capcut para tratar aúdio e adicionar sons de fundo
+- Audio gerado pela elevenLabs com a voz de Lilly em português
+- DALL·E 3 para gerar capas
+- Free Music Archive para obter sons de fundo
+- Kdenlive para tratar aúdio e adicionar sons de fundo
+
 
 ## 📚 Materiais
 
 - [Link da live no Youtube](https://www.youtube.com)
 - [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
+- [Editor de aúdio](https://kdenlive.org/en/)
 
 
-## 🛠️ Instruções de execução
+## 🛠️ Prompts utilizados no projeto
 
-Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` para criar um podcast de maneira automatizada, para isso siga o passo a passo abaixo.
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `midjourney`
+- 🤖 1. [Prompts]((src/prompts/chatgpt.md)) de roteiro no `chagpt`
+- 🤖 2. [Prompts](src/prompts/roteiro-gerado-pelo-chatgpt.md) de roteiro gerados pelo chatgpt no  `ElevenLabs`
+- 🤖 3. [Prompts](src/prompts/dalle.md) de artes no `DALL·E 3`
 
 ## 👨‍💻 Expert
 
@@ -71,29 +71,18 @@ Utilize os prompts dentro do link do `Notion` fornecido na parte de `Materiais` 
       align=left 
       margin=10 
       width=80 
-      src="https://avatars.githubusercontent.com/u/37452836?v=4"
+      src="https://avatars.githubusercontent.com/u/7563167?s=400&u=18d3a8510f96dd9586a6b0b74b43dee3c004368d&v=4"
     />
-    <p>&nbsp&nbsp&nbspFelipe Aguiar<br>
+    <p>&nbsp&nbsp&nbspAline de O. Machado<br>
     &nbsp&nbsp&nbsp
-    <a 
-        href="https://github.com/felipeAguiarCode">
-        GitHub
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="www.linkedin.com/in/felipe-exe">
-        LinkedIn
-    </a>
-    &nbsp;|&nbsp;
-    <a 
-        href="https://www.instagram.com/felipeaguiar.exe/">
-        Instagram
-    </a>
-    &nbsp;|&nbsp;</p>
+    <a href="https://github.com/alinemach">
+    GitHub</a>&nbsp;|&nbsp;
+    <a href="www.linkedin.com/in/alinemach">LinkedIn</a>
+&nbsp;|&nbsp;</p>
 </p>
 <br/><br/>
 <p>
 
 ---
 
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+Feito com carinho por [Aline de O. Machado](https://github.com/alinemach)
